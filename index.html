@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fixed-top shadow" id="nav">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col d-flex align-items-center">
+                    <i class="bi bi-facebook text-danger" style="font-size: 3rem;"></i>
+                    <div class="input-group ms-2">
+                        <span class="input-group-prepend d-lg-block">
+                            <div class="input-group-text bg-gray border-0 rounded-pill">
+                                <i class="bi bi-search me-2 text-muted"></i>
+                                <p class="m-0 fs-7 text-muted">Search here</p>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-flex justify-content-center">
+                    <div class="mx-4 nav_btn nav_btn_active">
+                        <button class="btn px-4">
+                            <i class="bi bi-house text-muted fs-4"></i>
+                        </button>
+                    </div>
+                    <div class="mx-4 nav_btn">
+                        <button type="button" class="btn position-relative">
+                            <i class="bi bi-youtube text-muted fs-4"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                              9+
+                              <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="mx-4 nav_btn nav_btn_active">
+                        <button class="btn px-4">
+                            <i class="bi bi-shop text-muted fs-4"></i>
+                        </button>
+                    </div>
+                    <div class="mx-4 nav_btn">
+                        <button type="button" class="btn position-relative">
+                            <i class="bi bi-people-fill text-muted fs-4"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                              99+
+                              <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="mx-4 nav_btn">
+                        <button class="btn px-4">
+                            <i class="bi bi-controller text-muted fs-4"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <div class="d-flex align-items-center justify-content-center p-1 ex-2 bg-gray rounded-circle" id="mainMenu" data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="mainMenu">
+                        <li><a class="dropdown-item" href="#">Home</a></li>
+                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                        <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                        <li><a class="dropdown-item" href="#">Groups</a></li>
+                        <li><a class="dropdown-item" href="#">Gaming</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cover-photo">
+        <img src="logoyt.png" style="width: 100%; height: 500px;">
+        <div class="user">
+            <img src="logoyt.png" id="propic">
+            <h1 class="mt-5">JimmZ TV</h1>
+        </div>
+        <br>
+        <div class="container">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item" type="button">Post</li>
+              <li class="list-group-item" type="button">About</li>
+              <li class="list-group-item" type="button">Photos</li>
+              <li class="list-group-item" type="button">Reviews</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mt-3">
+                <div class="intro card">
+                    <h2>Intro</h2>
+                </div>
+                <div class="photos card mt-3">
+                    <h2>Photos</h2>
+                    <img src="logoyt.png" class="mx-4 mb-3" style="width: 150px; height: 150px;">
+                </div>
+            </div>
+            <div class="col-md-7 mt-3">
+                <div class="post card">
+                    <h3>Post</h3>
+                </div>
+                <div class="posted card mt-2">
+                    <div class="col d-flex align-items-center" id="lll">
+                        <div class="user-name">
+                            <img src="logoyt.png" style="width: 35px; height: 35px;">
+                            <h5>JimmZ TV</h5>
+                            <p class="text-muted">updated their profile picture.</p>
+                        </div>
+                        <div class="d-flex p-1 ex-2 bg-gray rounded-circle" id="mainMenu" data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                            <i class="bi bi-list"></i>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="mainMenu">
+                            <li><a class="dropdown-item" href="#">Edit</a></li>
+                            <li><a class="dropdown-item" href="#">Delete</a></li>
+                            <li><a class="dropdown-item" href="#">Report</a></li>
+                        </ul>
+                    </div>
+                    <div class="current-post">
+                        <img src="logoyt.png" style="width: 100%; height: 300px;">
+                        <div class="react">
+                            <ul class="list-group list-group-horizontal">
+                              <li class="list-group-item"><i class="bi bi-hand-thumbs-up"></i>Like</li>
+                              <li class="list-group-item"><i class="bi bi-chat-right-dots"></i>Comment</li>
+                              <li class="list-group-item"><i class="bi bi-share"></i>Share</li>
+                            </ul>
+                        </div>
+                        <div class="input-group ms-2">
+                            <span class="input-group-prepend d-lg-block">
+                                <div class="input-group-text bg-gray border-0 rounded-pill">
+                                    <i class="bi bi-send-fill me-2 text-muted"></i>
+                                    <p class="m-0 fs-7 text-muted">Comment here</p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
